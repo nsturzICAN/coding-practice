@@ -1,6 +1,26 @@
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.code-snippet{
+  font-family: monospace;
+  background-color: lightgrey;
+  padding-right: 2px;
+  padding-left: 2px;
+  border-radius: 5%;
+}
+
+.colored-boxes-container{
+  display: flex;
+}
+
 h1{
     color: #0E1117;
-  }
+  }  
 
 
   /* .roboto-medium {
