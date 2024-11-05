@@ -18,8 +18,9 @@
         <hr>
         <script src="main.js"></script>
         <div>
-            <p class="roboto-regular">You can do a lot of things using Flexbox, but mainly it is a way for you as a coder to lay content out on a page in an organized way.</p>
+            <p class="roboto-regular">You can do a lot of things using Flexbox, but mainly it is a way for you to lay content out on a page in an organized way. Watch <a href="https://www.youtube.com/watch?v=K74l26pE4YA">this video</a> for a very quick explanation of Flexbox (it's ok if not everything makes sense).</p>
             <p>For example, by default, <a href="https://www.w3schools.com/html/html_blocks.asp">block level elements </a> like <span class="code-snippet">div</span> automatically stack <b>veritcally</b>:</p>
+            <p><b>Ex. 1:</b></p>
         </div>
         <div>
             <div>
@@ -35,6 +36,7 @@
             </div>
             <div class="mt-3">
                 <p>However, what if you wanted to have them lay out <b>horizontally</b> instead?</p>
+                <p><b>Ex. 2:</b></p>
             </div>
             <div class="colored-boxes-container">
                 <div class="border border-black bg-warning col p-3">
@@ -52,24 +54,37 @@
         <div class="p-2">
             <h2>Here's How:</h2>
             <ol>
+                <li>First, ensure that you have created a new folder in your VS Code project called <span class="code-snippet">coding-practice-5</span> Ensure the folder has <span class="code-snippet">index.html</span> and <span class="code-snippet">styles.css</span></li>
                 <li>In <span class="code-snippet">index.html</span>, Create a <span class="code-snippet">div</span> element and make sure to open it up.</li>
-                <li>Give the <span class="code-snippet">div</span> element a <span class="code-snippet">class</span> attribute of <span class="code-snippet">colored-boxes-container.</span></li>
+                <li>Give the <span class="code-snippet">div</span> element a <span class="code-snippet">class</span> attribute of <span class="code-snippet">colored-boxes-container</span></li>
                 <li>
                     Inside the <span class="code-snippet">div</span>, create 3 more child <span class="code-snippet">div</span> elements, and make sure to open them up. Then:
                     <ul>
-                        <li>Write the text "Yellow Box" inside the first child <span class="code-snippet">div</span> element. Then, give it a <span class="code-snippet">class</span> attribute of "yellow"</li>
-                        <li>Write the text "Red Box" inside the second child <span class="code-snippet">div</span> element. Then, give it a <span class="code-snippet">class</span> attribute of "red"</li>
-                        <li>Write the text "Green Box" inside the third child <span class="code-snippet">div</span> element. Then, give it a <span class="code-snippet">class</span> attribute of "green"</li>
+                        <li>Write the text "Yellow Div" inside the first child <span class="code-snippet">div</span> element. Then, give it a <span class="code-snippet">class</span> attribute of "yellow"</li>
+                        <li>Write the text "Red Div" inside the second child <span class="code-snippet">div</span> element. Then, give it a <span class="code-snippet">class</span> attribute of "red"</li>
+                        <li>Write the text "Green "Div" inside the third child <span class="code-snippet">div</span> element. Then, give it a <span class="code-snippet">class</span> attribute of "green"</li>
                     </ul>
                 </li>
                 <li>
-                    In <span class="code-snippet">styles.css</span>, create CSS rulesets that do the following: 
+                    In <span class="code-snippet">styles.css</span>, write CSS code that does the following: 
                    <ul>
                         <li>Turn the <span class="code-snippet">background-color</span> of the "Yellow Div" <span class="code-snippet">yellow</span></li>
                         <li>Turn the <span class="code-snippet">background-color</span> of the "Red Div" <span class="code-snippet">red</span></li>
                         <li>Turn the <span class="code-snippet">background-color</span> of the "Green Div" <span class="code-snippet">green</span></li>
                    </ul>
                 </li>
+                <li>In <span class="code-snippet">styles.css</span>, write code that gives <span class="code-snippet">.colored-boxes-container</span> a <span class="code-snippet">display</span> property of <span class="code-snippet">flex</span></li>
+            </ol>
+            <p>If you did this correctly, your output should be side-by-side like <b>Ex. 2</b> above. It's ok if it doesn't look exactly the same.</p>
+        </div>
+        <div>
+            <h2>Save, Commit, and Push your changes:</h2>
+            <ol>
+                <li>Open the terminal in VS Code.</li>
+                <li>Use <span class="code-snippet">git add .</span> to prepare your work for commit.</li>
+                <li>Use <span class="code-snippet">git commit -m "write a message here"</span> to save your changes</li>
+                <li>Use <span class="code-snippet">git push origin coding-practice-(number of exercise you just worked on)</span> to push your changes to GitHub</li>
+                <li>Let Nick know when you're done.</li>
             </ol>
         </div>
     </div>
